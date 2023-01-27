@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public GameState GameState;
-    public int Wave;
+    //Encapsulation
+    public int Wave{get; private set;}
     private void Awake(){
         if(Instance != null){
             Destroy(gameObject);

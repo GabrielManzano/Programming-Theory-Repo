@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoardTile : Tile
 {
     [SerializeField] private Color _baseColor, _offsetColor;
+    //Polymorphism
     public override void Init(int x, int y)
     {
         var isOffset = ((x+y)%2 == 1);

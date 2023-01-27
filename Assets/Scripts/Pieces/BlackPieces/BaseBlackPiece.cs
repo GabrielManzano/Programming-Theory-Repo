@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BaseBlackPiece : Piece
 {
+    //Inheritence
     public bool Dead = false;
     public bool TakenTurn = true;
     public virtual void TakeTurn(){

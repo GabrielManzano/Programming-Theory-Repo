@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Piece : MonoBehaviour
 {
+    //Inheritence in BasePieces
     public Tile OccupiedTile;
 
     public Vector3 PeiceOffset;

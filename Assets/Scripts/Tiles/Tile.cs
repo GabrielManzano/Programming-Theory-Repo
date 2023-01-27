@@ -62,6 +62,7 @@ public class Tile : MonoBehaviour
             }
         }
     }
+    //Abstraction
     public float FindDistanceFromPiece(){
         if(UnitManager.Instance.SelectedPiece != null){
             return (float)(transform.position - UnitManager.Instance.SelectedPiece.transform.position).magnitude;
