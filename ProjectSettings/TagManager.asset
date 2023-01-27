@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Black Piece
+  - Canvas
   layers:
   - Default
   - TransparentFX
